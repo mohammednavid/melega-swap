@@ -417,10 +417,10 @@ export const Search = ({ small = false }) => {
   const [pairsShown, setPairsShown] = useState(5);
 
   function onDismiss() {
-    setPairsShown(5);
+    setPairsShown(5); 
     setTokensShown(5);
     toggleMenu(false);
-    setValue("");
+    setValue("")
   }
 
   // refs to detect clicks outside modal
